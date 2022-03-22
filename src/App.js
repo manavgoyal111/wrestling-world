@@ -54,10 +54,10 @@ function App() {
 	return (
 		<div>
 			<Router>
-				{/* <LoadingBar color="#f11946" progress={progress} height={3} /> */}
+				<LoadingBar color="#f11946" progress={progress} height={3} />
 				<Navbar />
 
-				{/* <Routes>
+				<Routes>
 					<Route
 						path="/"
 						element={
@@ -177,7 +177,7 @@ function App() {
 							/>
 						}
 					/>
-				</Routes> */}
+				</Routes>
 			</Router>
 		</div>
 	);

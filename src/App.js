@@ -6,7 +6,7 @@ import { Navbar } from "./components/Navbar";
 import { News } from "./components/News";
 
 function App() {
-	const [categories, setCategories] = useState([
+	const categories = [
 		{
 			id: 1,
 			title: "books",
@@ -43,7 +43,7 @@ function App() {
 			id: 9,
 			title: "open_videos",
 		},
-	]);
+	];
 
 	const [progress, setProgress] = useState(0);
 
